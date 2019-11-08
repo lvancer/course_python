@@ -12,7 +12,7 @@ if x < 10:
     if x > 4:
         print('ok')
 
-if (x < 100) and (x > 4):
+if (x < 10) and (x > 4):
     print('ok')
 
 # else

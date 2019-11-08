@@ -10,7 +10,7 @@ b = a < 4   # False
 # 字符串
 s = 'abc'
 b = s == 'abc'  # True
-b = s.find('a') > 0     # 判断是否存在a，True
+b = s.find('a') >= 0     # 判断是否存在a，True
 b = s.find('e') > 0     # 判断是否存在e，False
 b = s.startswith('b')   # 判断是否以b开头，False
 b = s.endswith('c')     # 判断是否以c结尾，True
