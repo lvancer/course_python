@@ -16,7 +16,8 @@ def calendar_day(date=datetime.now()):
     """
     url = juhe_url + 'calendar/day'
     params = {
-        'date': date.strftime('%Y-%m-%d'),
+        # 'date': date.strftime('%Y-%m-%d'),
+        'date': '{}-{}-{}'.format(date.year, date.month, date.day),
         'key':  appkey
     }
     response = requests.get(url=url, params=params)

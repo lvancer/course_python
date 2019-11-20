@@ -20,11 +20,12 @@ t = int(now.timestamp())        # 时间戳
 print(str(year) + '-' + str(month) + '-' + str(day))
 print('{}-{}-{}'.format(year, month, day))
 
+
 # 时间格式化
 import locale
 locale.setlocale(locale.LC_CTYPE, 'chinese')    # 解决中文问题
 print(now.strftime('%Y年%m月%d日 第%W周 星期%w'))
-
+exit()
 # 时间创建
 date = datetime.strptime('2019年3月16日', '%Y年%m月%d日')
 print(date)
