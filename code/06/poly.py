@@ -14,6 +14,7 @@ print(isinstance(p1, Student))
 print(type(p1) == Person)
 print(type(p1) == Student)
 
+
 type(s1) == Person          # False
 type(s1) == Student         # True
 isinstance(s1, Person)      # True
