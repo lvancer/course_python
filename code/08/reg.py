@@ -15,9 +15,10 @@ re.search(r'[^abcde]', 'I am a student.')   # I
 re.search(r'[a-z]', 'I am a student.')      # a
 
 # 重复匹配
-print(re.findall(r'\w*', 'You are good'))
-print(re.findall(r'\w+', 'You are good'))
-print(re.findall(r'\w{1,3}', 'You are good'))
+# print(re.findall(r'\w*', 'You are good'))
+# print(re.findall(r'\w+', 'You are good'))
+# print(re.findall(r'\w{1,3}', 'You are good'))
+
 
 print(re.findall(r'@ab?', '@abc@abc@'))
 print(re.findall(r'@.+@', '@abc@abc@'))     # 贪婪

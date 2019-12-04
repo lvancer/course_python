@@ -8,14 +8,15 @@ conf.read('config.ini')             # 读取文件
 # print(conf['DEFAULT']['dir'])       # 获取配置
 # print(int(conf['INFO']['x']))
 # print(conf['INFO']['save'] == 'True')
-
+#
 # conf.get('DEFAULT', 'dir')       # 获取配置
 # conf.getint('INFO', 'x')         # int
 # conf.getboolean('INFO', 'save')  # boolean
 
+
 # 判断
 # conf.has_section('DEFAULT')     # 是否存在section
-# conf.has_option('INFO', 'dir')  # 是否存在option
+# print(conf.has_option('INFO', 'dir'))  # 是否存在option
 
 # 配置遍历
 # print(conf.sections())          # 返回所有section

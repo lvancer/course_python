@@ -15,9 +15,8 @@ print(ret)      # 空
 ret = re.search(reg_exp, 'a12')
 print(ret.group())      # 正常返回1
 
-
 # 查找全部匹配
-ret = re.findall(reg_exp, 'a12')
+ret = re.findall(reg_exp, 'a133bbd2')
 print(ret)
 for i in re.finditer(reg_exp, 'a12'):
     print(i.group(), i.span())
