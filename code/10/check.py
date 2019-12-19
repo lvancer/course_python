@@ -32,7 +32,7 @@ if __name__ == '__main__':
     root.geometry('300x100')
 
 
-    # def checkbutton_select(x):   #
+    # def checkbutton_select(x):
     #     print(x.get())
     # check = tk.IntVar()
     # checkbutton = tk.Checkbutton(root, text="选择框", variable=check,

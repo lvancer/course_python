@@ -13,8 +13,8 @@ class MyFrame(tk.Frame):
         self.var = tk.StringVar()
         self.entry = tk.Entry(self, textvariable=self.var)
         self.entry.pack(side=tk.LEFT)
-        self.button = tk.Button(self, text='点击', command=self.btn_click)
-        self.button.pack(side=tk.RIGHT)
+        button = tk.Button(self, text='点击', command=self.btn_click)
+        button.pack(side=tk.RIGHT)
 
     def btn_click(self):
         tkinter.messagebox.showinfo('输入内容', self.var.get())
@@ -23,6 +23,6 @@ class MyFrame(tk.Frame):
 if __name__ == '__main__':
     root = tk.Tk()
     root.title("My First GUI")
-    root.geometry('300x100')
-    MyFrame(root).pack(side=tk.TOP)
+    root.geometry('400x300')
+    MyFrame(root).pack()
     root.mainloop()
